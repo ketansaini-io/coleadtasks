@@ -1,0 +1,110 @@
+[embedder] sentence-transformers unavailable (ModuleNotFoundError); falling back to TF-IDF.
+======================================================================
+Aurora Institute of Technology - RAG Assistant - DEMO
+Indexed 38 chunks from 6 docs | embeddings: tfidf (dim=1626)
+======================================================================
+
+### Part 1 — Single questions (fresh context each time)
+
+Q: What is the tuition fee for the AI and Data Science program?
+A: - **Artificial Intelligence and Data Science (AI-DS):** INR 1,95,000 per year.
+- **M.Tech Data Science:** INR 1,20,000 per year.
+- **B.Tech in Artificial Intelligence and Data Science (AI-DS)** — Intake 60 seats. Core areas:
+   Sources:
+     1. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > M.Tech Tuition Fees (per year)] (score=0.239) "- **M.Tech Data Science:** INR 1,20,000 per year. - **M.Tech VLSI Design:** INR 1,10,000 per year."
+     2. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > B.Tech Tuition Fees (per year)] (score=0.234) "- **Computer Science and Engineering (CSE):** INR 1,80,000 per year. - **Artificial Intelligence and ..."
+     3. [courses.md > Aurora Institute of Technology — Courses & Programs > Undergraduate Programs (B.Tech, 4 years)] (score=0.154) "of Technology (B.Tech) programs. Each program requires 160 credits to graduate.  - **B.Tech in Compu ..."
+----------------------------------------------------------------------
+Q: What is the minimum attendance required to sit for exams?
+A: - A minimum of **75 percent attendance** in every course is mandatory to be eligible for the
+Attendance is recorded every period.
+in each course to be eligible to sit for the end-semester examination of that course.
+   Sources:
+     1. [timetable.md > Aurora Institute of Technology — Timetable & Academic Calendar > Attendance Windows] (score=0.220) "Attendance is recorded every period. A student must attend at least 75 percent of the classes in eac ..."
+     2. [rules.md > Aurora Institute of Technology — Rules & Regulations > Attendance Policy] (score=0.169) "- A minimum of **75 percent attendance** in every course is mandatory to be eligible for the   end-s ..."
+     3. [courses.md > Aurora Institute of Technology — Courses & Programs > Eligibility] (score=0.121) "Admission to B.Tech programs requires a pass in Class 12 with Physics, Chemistry and Mathematics, an ..."
+----------------------------------------------------------------------
+Q: Who is the head of the AI-DS department and when are their office hours?
+A: Office hours: Wednesday, 2–4 PM.
+Office hours: Monday and Thursday, 3–4 PM.
+- **Dr. Suresh Iyer** — Head of Department, AI-DS. Specializes in natural language processing and
+   Sources:
+     1. [faculty.md > Aurora Institute of Technology — Faculty Directory > Department of Artificial Intelligence and Data Science (AI-DS)] (score=0.274) "- **Dr. Suresh Iyer** — Head of Department, AI-DS. Specializes in natural language processing and    ..."
+     2. [faculty.md > Aurora Institute of Technology — Faculty Directory > Department of Computer Science and Engineering (CSE)] (score=0.194) "- **Dr. Priya Nair** — Head of Department, CSE. Specializes in distributed systems and databases.    ..."
+     3. [faculty.md > Aurora Institute of Technology — Faculty Directory > Contacting Faculty] (score=0.134) "Students should email faculty from their official AIT student email and may visit during the listed  ..."
+----------------------------------------------------------------------
+Q: When does the odd semester begin?
+A: - Club Fair: first two weeks of the odd semester.
+- **Odd Semester end examinations:** 17 November to 1 December 2026.
+- **Odd Semester** begins on 21 July 2026 and ends on 14 November 2026.
+   Sources:
+     1. [timetable.md > Aurora Institute of Technology — Timetable & Academic Calendar > Academic Calendar 2026–27] (score=0.231) "- **Odd Semester** begins on 21 July 2026 and ends on 14 November 2026. - **Odd Semester end examina ..."
+     2. [timetable.md > Aurora Institute of Technology — Timetable & Academic Calendar > Important Dates] (score=0.229) "- Club Fair: first two weeks of the odd semester. - Spectra (techno-cultural fest): February 2027. - ..."
+     3. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies > How to Join] (score=0.200) "Students can join any club during the "Club Fair" held in the first two weeks of the odd semester, o ..."
+----------------------------------------------------------------------
+Q: How do I join a club and how many clubs can I join?
+A: join up to four clubs at a time.
+Students can join any club during the "Club Fair" held in the first two weeks of the odd
+   Sources:
+     1. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies > How to Join] (score=0.461) "Students can join any club during the "Club Fair" held in the first two weeks of the odd semester, o ..."
+     2. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies] (score=0.094) "AIT hosts a vibrant student community with technical, cultural and sports clubs. Every student pays  ..."
+     3. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies > Cultural Clubs] (score=0.086) "- **Rhythm (Music Club):** Vocal and instrumental music, organizes the "Euphony" cultural night. - * ..."
+----------------------------------------------------------------------
+Q: What is the passing mark in a course?
+A: - The passing mark in every course is **40 percent** of the total marks.
+   Sources:
+     1. [rules.md > Aurora Institute of Technology — Rules & Regulations > Examination Rules] (score=0.272) "- Students must carry their AIT identity card and hall ticket to every examination. - Use of mobile  ..."
+     2. [timetable.md > Aurora Institute of Technology — Timetable & Academic Calendar > Attendance Windows] (score=0.093) "Attendance is recorded every period. A student must attend at least 75 percent of the classes in eac ..."
+     3. [rules.md > Aurora Institute of Technology — Rules & Regulations > Attendance Policy] (score=0.091) "- A minimum of **75 percent attendance** in every course is mandatory to be eligible for the   end-s ..."
+----------------------------------------------------------------------
+Q: Is ragging allowed on campus?
+A: - Smoking, alcohol and any prohibited substances are banned on campus.
+- Visitors are allowed only in the common visiting area during visiting hours (4–6 PM).
+- Students must maintain discipline and decorum on campus and wear their ID cards at all times.
+   Sources:
+     1. [rules.md > Aurora Institute of Technology — Rules & Regulations > Code of Conduct] (score=0.203) "- Ragging in any form is strictly banned and is a punishable offence that can lead to expulsion. - S ..."
+     2. [rules.md > Aurora Institute of Technology — Rules & Regulations > Hostel Rules] (score=0.135) "- Hostel gates close at 9:30 PM. Entry after this time requires prior permission from the warden. -  ..."
+     3. [rules.md > Aurora Institute of Technology — Rules & Regulations > Grievances] (score=0.089) "- Students may raise academic or administrative grievances through the online grievance portal on    ..."
+----------------------------------------------------------------------
+Q: What is the capital of France?
+A: I could not find this information in the Aurora Institute of Technology documents. Please rephrase, or contact the college office.
+   Sources:
+     1. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies] (score=0.000) "AIT hosts a vibrant student community with technical, cultural and sports clubs. Every student pays  ..."
+     2. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies > Technical Clubs] (score=0.000) "- **Aurora Coding Club (ACC):** Focuses on competitive programming, open-source contributions and    ..."
+     3. [clubs.md > Aurora Institute of Technology — Student Clubs & Societies > Cultural Clubs] (score=0.000) "- **Rhythm (Music Club):** Vocal and instrumental music, organizes the "Euphony" cultural night. - * ..."
+----------------------------------------------------------------------
+
+### Part 2 — Multi-turn conversation (history / bonus)
+
+Q: What courses does the college offer?
+A: Aurora Institute of Technology (AIT) offers the following four-year Bachelor of Technology
+   Sources:
+     1. [courses.md > Aurora Institute of Technology — Courses & Programs > Undergraduate Programs (B.Tech, 4 years)] (score=0.122) "Aurora Institute of Technology (AIT) offers the following four-year Bachelor of Technology (B.Tech)  ..."
+     2. [courses.md > Aurora Institute of Technology — Courses & Programs > Undergraduate Programs (B.Tech, 4 years)] (score=0.111) "rks and the Internet of Things. - **B.Tech in Mechanical Engineering (ME)** — Intake 60 seats. Core  ..."
+     3. [courses.md > Aurora Institute of Technology — Courses & Programs > Postgraduate Programs (M.Tech, 2 years)] (score=0.106) "- **M.Tech in Data Science** — Intake 25 seats. Requires a GATE score or an AIT entrance test. - **M ..."
+----------------------------------------------------------------------
+Q: What is the fee for CSE?
+A: - **Computer Science and Engineering (CSE):** INR 1,80,000 per year.
+- **Dr. Priya Nair** — Head of Department, CSE. Specializes in distributed systems and databases.
+- Examination fee: INR 6,000 per year.
+   Sources:
+     1. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > Other Mandatory Fees (per year)] (score=0.134) "- One-time admission fee (first year only): INR 25,000. - Examination fee: INR 6,000 per year. - Lib ..."
+     2. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > B.Tech Tuition Fees (per year)] (score=0.132) "- **Computer Science and Engineering (CSE):** INR 1,80,000 per year. - **Artificial Intelligence and ..."
+     3. [faculty.md > Aurora Institute of Technology — Faculty Directory > Department of Computer Science and Engineering (CSE)] (score=0.101) "- **Dr. Priya Nair** — Head of Department, CSE. Specializes in distributed systems and databases.    ..."
+----------------------------------------------------------------------
+Q: What about ECE?
+A: - **Electronics and Communication Engineering (ECE):** INR 1,60,000 per year.
+   (retrieved using: "fee CSE Computer Science Engineering INR year Priya What about ECE?")
+   Sources:
+     1. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > B.Tech Tuition Fees (per year)] (score=0.416) "- **Computer Science and Engineering (CSE):** INR 1,80,000 per year. - **Artificial Intelligence and ..."
+     2. [faculty.md > Aurora Institute of Technology — Faculty Directory > Department of Computer Science and Engineering (CSE)] (score=0.210) "- **Dr. Priya Nair** — Head of Department, CSE. Specializes in distributed systems and databases.    ..."
+     3. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > M.Tech Tuition Fees (per year)] (score=0.163) "- **M.Tech Data Science:** INR 1,20,000 per year. - **M.Tech VLSI Design:** INR 1,10,000 per year."
+----------------------------------------------------------------------
+Q: Who is the head of that department?
+A: - **Dr. Kavita Deshmukh** — Head of Department, ECE. Specializes in VLSI design.
+   (retrieved using: "ECE Electronics Communication Engineering INR year Who is the head of that department?")
+   Sources:
+     1. [fees.md > Aurora Institute of Technology — Fee Structure 2026 > B.Tech Tuition Fees (per year)] (score=0.376) "- **Computer Science and Engineering (CSE):** INR 1,80,000 per year. - **Artificial Intelligence and ..."
+     2. [faculty.md > Aurora Institute of Technology — Faculty Directory > Department of Electronics and Communication Engineering (ECE)] (score=0.311) "- **Dr. Kavita Deshmukh** — Head of Department, ECE. Specializes in VLSI design.   Office: Room C-10 ..."
+     3. [courses.md > Aurora Institute of Technology — Courses & Programs > Undergraduate Programs (B.Tech, 4 years)] (score=0.160) "of Technology (B.Tech) programs. Each program requires 160 credits to graduate.  - **B.Tech in Compu ..."
+----------------------------------------------------------------------

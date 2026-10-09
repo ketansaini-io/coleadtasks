@@ -1,0 +1,10 @@
+# Core (required) — the project runs fully offline with just these.
+numpy>=1.24
+scikit-learn>=1.3
+
+# Optional — better semantic retrieval. If installed, it is used automatically;
+# if not, the assistant falls back to TF-IDF.
+# sentence-transformers>=2.2
+
+# Optional — real LLM answer generation. Set OPENAI_API_KEY to enable.
+# openai>=1.0
